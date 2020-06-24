@@ -55,3 +55,22 @@ body
 {
     font-family: "verdana";
 }
+/************************************** MEDIA QUERY ******************************** */
+@media screen and (max-width: 768px)
+{
+    .nav a
+        {
+            width: 100%;
+        }
+    body
+    {
+        margin:0;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    .nav a
+    {
+        width:90%;
+    }
+}
